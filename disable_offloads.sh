@@ -41,6 +41,8 @@ USAGE:
     sudo ./disable_offloads.sh <interface>
   Example:
     sudo ./disable_offloads.sh eno1
+  Download and run one-line example:
+    wget -qO- https://raw.githubusercontent.com/garrettlaman/homelab-scripts/main/disable_offloads.sh | bash -s -- eno1
 
 REMOVAL:
     sudo systemctl disable --now disable-offload-<iface>.service
